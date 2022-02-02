@@ -1,7 +1,7 @@
 node{
  
     stage('Clone') {
-        git 'https://github.com/ludovic-tech/ansible-jenkins.git'
+        git 'https://github.com/farmanjosex/ansible-jenkins.git'
     }
     stage('Ansible') {
 
